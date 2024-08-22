@@ -1,0 +1,49 @@
+.main-container {
+    margin-left: 28%;
+    margin-top: 100px;
+}
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}  
+.product {
+    margin: 10px;
+    text-align: center;
+}  
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}  
+.add-btn, .qnty-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}  
+.qnty-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qnty-cnt span {
+    margin: 0 10px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+.ttl-qnty {
+    margin-top: 20px;
+    margin-left: 25%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.product-name {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
